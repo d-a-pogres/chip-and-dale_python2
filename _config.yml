@@ -1,0 +1,25 @@
+# _config.yml для GitHub Pages
+title: "Чип и Дейл спешат на помощь"
+description: "2D-платформер на Python с PyGame"
+theme: jekyll-theme-minimal
+baseurl: ""  # Оставьте пустым если репозиторий называется USERNAME.github.io
+url: "https://ваш-логин.github.io"  # Ваш адрес GitHub Pages
+
+# Настройки Jekyll
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Дополнительные настройки
+author: "Ваше Имя"
+email: "ваш.email@example.com"
+github_username: ваш-логин
+
+# Меню навигации (если будете делать сайт)
+nav:
+  - name: "Главная"
+    link: "/"
+  - name: "Играть"
+    link: "/game"
+  - name: "Скачать"
+    link: "/download"
